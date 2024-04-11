@@ -159,13 +159,13 @@
 
   // Function to play match sound
   function playMatchSound() {
-    let matchSound = new Audio('../music/match-sound.wav');
+    let matchSound = new Audio('./music/match-sound.wav');
     matchSound.play();
   }
 
   // Function to play error sound
   function playErrorSound() {
-    let errorSound = new Audio('../music/error-sound.wav');
+    let errorSound = new Audio('./music/error-sound.wav');
     errorSound.play();
   }
 
